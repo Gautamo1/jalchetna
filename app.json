@@ -3,13 +3,12 @@
     "name": "JalChetna",
     "slug": "jalchetna",
     "version": "1.0.0",
+    "sdkVersion": "54.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#4630EB"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -19,19 +18,17 @@
       "bundleIdentifier": "com.jalchetna.app"
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      },
       "package": "com.jalchetna.app"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
         "projectId": "ba2cdc09-ef7f-47fe-93c8-7175c707996e"
       }
-    }
+    },
+    "plugins": [
+      "expo-asset"
+    ]
   }
 }
