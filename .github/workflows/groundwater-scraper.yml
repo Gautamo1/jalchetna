@@ -8,6 +8,9 @@ on:
 jobs:
   scrape-groundwater:
     runs-on: ubuntu-latest
+    env:
+      SUPABASE_FUNCTION_REGION: ap-south-1
+
     
     steps:
       - name: Trigger Groundwater Function
