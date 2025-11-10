@@ -1,0 +1,29 @@
+name: Groundwater Data Scraper
+
+on:
+  schedule:
+    # Run every 4 minutes (rotating through all districts)
+    - cron: '*/4 * * * *'
+  workflow_dispatch: # Allow manual triggering
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Invoke Supabase Edge Function
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: |
+          curl -X POST \
+            https://glcbkolaazmzzfbxfvxd.supabase.co/functions/v1/get_groundwater \
+            -H "Content-Type: application/json" \
+            -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdsY2Jrb2xhYXptenpmYnhmdnhkIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2MjY4ODUxNCwiZXhwIjoyMDc4MjY0NTE0fQ.P42cD0ptJM4wsNfu77VjPN9O62TlGd1IGGyB2w3rKIE" \
+            -d '{}'
+      
+      - name: Log execution result
+        run: echo "Groundwater function invoked - Check Supabase dashboard for details"
