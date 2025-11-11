@@ -1,3 +1,0 @@
-[functions.get_groundwater]
-verify_jwt = false
-timeout_seconds = 900
