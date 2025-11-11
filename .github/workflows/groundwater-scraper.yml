@@ -8,14 +8,20 @@ on:
 jobs:
   scrape-groundwater:
     runs-on: ubuntu-latest
+    env:
+      SUPABASE_FUNCTION_REGION: ap-south-1
+
     
     steps:
       - name: Trigger Groundwater Function
         run: |
-          curl -L -X POST 'https://glcbkolaazmzzfbxfvxd.supabase.co/functions/v1/get_groundwater' \
-            -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdsY2Jrb2xhYXptenpmYnhmdnhkIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2MjY4ODUxNCwiZXhwIjoyMDc4MjY0NTE0fQ.P42cD0ptJM4wsNfu77VjPN9O62TlGd1IGGyB2w3rKIE' \
-            -H 'Content-Type: application/json' \
-            --data '{}'
+          curl -X POST 'https://glcbkolaazmzzfbxfvxd.supabase.co/functions/v1/get_groundwater' \
+          -H "Authorization: Bearer ${{ secrets.SUPABASE_ANON_KEY }}" \
+          -H "Content-Type: application/json" \
+          --data '{}'
+
       
       - name: Scheduled run completed
         run: echo "✅ Groundwater function executed at $(date)"
+
+
