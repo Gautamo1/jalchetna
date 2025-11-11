@@ -1,0 +1,309 @@
+{
+  "Andhra Pradesh": [
+    "Anakapalli",
+    "Dr. B.R. Ambedkar Konaseema",
+    "Kakinada",
+    "NTR",
+    "Parvathipuram Manyam",
+    "Tirupati",
+    "YSR Kadapa"
+  ],
+  "Arunachal Pradesh": [
+    "Anjaw",
+    "East Kameng",
+    "Kamle",
+    "Kra Daadi",
+    "Kurung Kumey",
+    "Lepa Rada",
+    "Longding",
+    "Lower Siang",
+    "Pakke-Kessang",
+    "Shi Yomi",
+    "Siang",
+    "Tawang",
+    "Upper Dibang Valley",
+    "Upper Siang",
+    "Upper Subansiri",
+    "West Kameng",
+    "West Siang",
+    "Keyi Panyor",
+    "Bichom"
+  ],
+  "Assam": [
+    "Bajali",
+    "Charaideo",
+    "Dima Hasao",
+    "Majuli",
+    "Morigaon",
+    "Sivasagar",
+    "South Salmara-Mankachar",
+    "Tamulpur",
+    "West Karbi Anglong"
+  ],
+  "Bihar": [
+    "Arwal",
+    "East Champaran",
+    "West Champaran"
+  ],
+  "Chhattisgarh": [
+    "Baloda Bazar",
+    "Balrampur-Ramanujganj",
+    "Bijapur",
+    "Gaurela-Pendra-Marwahi",
+    "Khairagarh-Chhuikhadan-Gandai",
+    "Korea",
+    "Manendragarh-Chirmiri-Bharatpur",
+    "Mohla-Manpur-Ambagarh Chowki",
+    "Narayanpur",
+    "Sarangarh-Bilaigarh",
+    "Sakti"
+  ],
+  "Gujarat": [
+    "Aravalli",
+    "Botad",
+    "Dahod",
+    "Kutch",
+    "Mahisagar",
+    "Mehsana",
+    "Panchmahal",
+    "Vav-Tharad"
+  ],
+  "Himachal Pradesh": [
+    "Kinnaur",
+    "Lahaul and Spiti",
+    "Shimla"
+  ],
+  "Jharkhand": [
+    "East Singhbhum",
+    "Koderma",
+    "Palamu",
+    "Sahibganj",
+    "Seraikela-Kharsawan",
+    "Simdega",
+    "West Singhbhum"
+  ],
+  "Karnataka": [
+    "Bagalkot",
+    "Belagavi",
+    "Chamarajanagar",
+    "Chikkaballapur",
+    "Chikmagalur",
+    "Dakshina Kannada",
+    "Gadaga",
+    "Ramanagara",
+    "Shimoga",
+    "Tumakuru",
+    "Vijayanagara"
+  ],
+  "Madhya Pradesh": [
+    "Ashoknagar",
+    "Maihar",
+    "Mauganj",
+    "Narsinghpur",
+    "Niwari",
+    "Pandhurna"
+  ],
+  "Maharashtra": [
+    "Ahmednagar",
+    "Buldhana",
+    "Osmand Nagar",
+    "Sindhudurg"
+  ],
+  "Manipur": [
+    "Bishnupur",
+    "Chandel",
+    "Churachandpur",
+    "Imphal East",
+    "Imphal West",
+    "Jiribam",
+    "Kakching",
+    "Kamjong",
+    "Kangpokpi",
+    "Noney",
+    "Pherzawl",
+    "Senapati",
+    "Tamenglong",
+    "Tengnoupal",
+    "Thoubal",
+    "Ukhrul"
+  ],
+  "Meghalaya": [
+    "South Garo Hills",
+    "South West Garo Hills",
+    "South West Khasi Hills",
+    "West Jaintia Hills"
+  ],
+  "Mizoram": [
+    "Aizawl",
+    "Champhai",
+    "Hnahthial",
+    "Khawzawl",
+    "Kolasib",
+    "Lawngtlai",
+    "Lunglei",
+    "Mamit",
+    "Saiha",
+    "Saitual",
+    "Serchhip"
+  ],
+  "Nagaland": [
+    "Chümoukedima",
+    "Kiphire",
+    "Longleng",
+    "Niuland",
+    "Noklak",
+    "Peren",
+    "Shamator",
+    "Tseminyü",
+    "Zunheboto"
+  ],
+  "Odisha": [
+    "Angul",
+    "Balasore",
+    "Boudh",
+    "Jagatsinghpur",
+    "Jajpur",
+    "Nabarangpur",
+    "Subarnapur"
+  ],
+  "Punjab": [
+    "Firozpur",
+    "Malerkotla",
+    "Rupnagar",
+    "Sahibzada Ajit Singh Nagar",
+    "Shahid Bhagat Singh Nagar",
+    "Sri Muktsar Sahib"
+  ],
+  "Rajasthan": [
+    "Balotra",
+    "Beawar",
+    "Deeg",
+    "Didwana Kuchaman",
+    "Khairthal-Tijara",
+    "Kotputli-Behror",
+    "Phalodi",
+    "Salumbar",
+    "Sri Ganganagar"
+  ],
+  "Sikkim": [
+    "Gangtok",
+    "Gyalshing",
+    "Mangan",
+    "Namchi",
+    "Pakyong",
+    "Soreng"
+  ],
+  "Tamil Nadu": [
+    "Chengalpattu",
+    "Kallakurichi",
+    "Kanchipuram",
+    "Mayiladuthurai",
+    "Ranipet",
+    "Tirupattur"
+  ],
+  "Telangana": [
+    "Bhadradri Kothagudem",
+    "Jagtial",
+    "Jayashankar Bhupalpally",
+    "Jogulamba Gadwal",
+    "Kumuram Bheem Asifabad",
+    "Medchal-Malkajgiri",
+    "Peddapalli",
+    "Sangareddy",
+    "Warangal",
+    "Yadadri Bhuvanagiri"
+  ],
+  "Tripura": [
+    "Khowai"
+  ],
+  "Uttar Pradesh": [
+    "Amethi",
+    "Amroha",
+    "Bagpat",
+    "Bulandshahr",
+    "Gautam Buddh Nagar",
+    "Ghazni",
+    "Kanpur",
+    "Kasganj",
+    "Khatima",
+    "Noida",
+    "Orai",
+    "Rae Bareli",
+    "Satna",
+    "Shravasti",
+    "Techkhand",
+    "Thakurdwara",
+    "Vidisha"
+  ],
+  "Uttarakhand": [
+    "Bageshwar",
+    "Chamoli",
+    "Pithoragarh",
+    "Rudraprayag",
+    "Tehri Garhwal"
+  ],
+  "West Bengal": [
+    "Bardhaman",
+    "Darjeeling",
+    "East Midnapore",
+    "Kalimpong",
+    "Malda",
+    "Medinipur",
+    "Purulia",
+    "Uttam Kumar",
+    "Varanasi",
+    "West Midnapore"
+  ],
+  "Andaman and Nicobar Islands": [
+    "Andaman",
+    "Nicobar",
+    "Middle Andaman"
+  ],
+  "Dadra and Nagar Haveli and Daman and Diu": [
+    "Dadra and Nagar Haveli",
+    "Daman",
+    "Diu"
+  ],
+  "Jammu and Kashmir": [
+    "Anantnag",
+    "Bandipore",
+    "Baramulla",
+    "Ganderbal",
+    "Jammu",
+    "Kathua",
+    "Kargil",
+    "Kishtwar",
+    "Kulgam",
+    "Kupwara",
+    "Leh",
+    "Pulwama",
+    "Rajouri",
+    "Ramban",
+    "Reasi",
+    "Samba",
+    "Shopian",
+    "Shupiyan",
+    "Srinagar",
+    "Udhampur"
+  ],
+  "Ladakh": [
+    "Kargil",
+    "Leh"
+  ],
+  "Lakshadweep": [
+    "Lakshadweep"
+  ],
+  "Delhi": [
+    "Central Delhi",
+    "East Delhi",
+    "North Delhi",
+    "North East Delhi",
+    "North West Delhi",
+    "South Delhi",
+    "South West Delhi",
+    "West Delhi"
+  ],
+  "Puducherry": [
+    "Mahe"
+  ]
+}
